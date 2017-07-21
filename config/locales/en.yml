@@ -33,4 +33,4 @@ en:
   faker:
     name:
       first_name: [State Park, National Park, National Monument]
-      last_name: [Tent Camping, RV Camping, Hiking, Point of Interest, Picnic Area, Pet Area, Wildlife, Boating, Swimming, Fishing, Horse Trails, Biking, Snow Mobiles, Skiing, Playground]
+      last_name: [Tent Camping, RV Camping, Hiking, Point of Interest, Picnic Area, Pet Area, Wildlife, Boating, Swimming, Fishing, Horse Trails, Biking, Snow Mobiling, Skiing, Playground]
