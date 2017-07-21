@@ -292,8 +292,8 @@
         null,
         null,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         1,
@@ -424,6 +424,22 @@
         2,
         2,
         2,
+        null
+      ],
+      "/Users/sushadore/Desktop/parks_api/spec/requests/delete_facility_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/sushadore/Desktop/parks_api/spec/requests/delete_park_spec.rb": [
@@ -575,6 +591,6 @@
         null
       ]
     },
-    "timestamp": 1500674659
+    "timestamp": 1500674881
   }
 }
