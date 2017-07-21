@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe "get exception route", type: :request do
+describe "record not found exception", type: :request do
 
   before do
     park = FactoryGirl.create(:park)
