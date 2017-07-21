@@ -323,8 +323,8 @@
         null,
         null,
         1,
-        0,
-        0,
+        4,
+        4,
         null,
         null,
         1,
@@ -348,11 +348,11 @@
         null,
         1,
         1,
-        2,
+        6,
         null,
         null,
         1,
-        0,
+        4,
         null,
         null
       ],
@@ -432,8 +432,33 @@
         1,
         3,
         null,
-        null,
         3,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/sushadore/Desktop/parks_api/spec/requests/post_park_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        4,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
         null,
         1,
         1,
@@ -445,6 +470,6 @@
         null
       ]
     },
-    "timestamp": 1500669878
+    "timestamp": 1500670916
   }
 }
