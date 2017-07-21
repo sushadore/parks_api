@@ -1,13 +1,19 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/sushadore/Desktop/parks_api/spec/models/facility_spec.rb": [
+      "/Users/sushadore/Desktop/parks_api/spec/exceptions/not_found_exception_spec.rb": [
         1,
         null,
         1,
-        2,
-        2,
-        2,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/sushadore/Desktop/parks_api/spec/rails_helper.rb": [
@@ -261,6 +267,12 @@
       ],
       "/Users/sushadore/Desktop/parks_api/app/controllers/application_controller.rb": [
         1,
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
         null
       ],
       "/Users/sushadore/Desktop/parks_api/app/controllers/facilities_controller.rb": [
@@ -318,7 +330,7 @@
         null,
         null,
         1,
-        0,
+        1,
         0,
         null,
         null,
@@ -348,7 +360,7 @@
         null,
         1,
         1,
-        6,
+        7,
         null,
         null,
         1,
@@ -414,6 +426,15 @@
         null,
         1,
         null,
+        null
+      ],
+      "/Users/sushadore/Desktop/parks_api/spec/models/facility_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
         null
       ],
       "/Users/sushadore/Desktop/parks_api/spec/models/park_spec.rb": [
@@ -591,6 +612,6 @@
         null
       ]
     },
-    "timestamp": 1500674881
+    "timestamp": 1500675461
   }
 }
