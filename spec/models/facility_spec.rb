@@ -1,5 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe Facility, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe Facility do
+  it { should belong_to :park }
+  it { should validate_presence_of :type }
+  it { should validate_presence_of :description }
 end
