@@ -3,10 +3,7 @@ require 'rails_helper'
 describe "post park route", type: :request do
 
   before do
-    post "/parks", params: {
-      name: "Jellystone",
-      category: "National Park",
-      location: "POTUS's backyard" }
+    post "/parks", params: { name: "Jellystone", category: "National Park", location: "POTUS's backyard" }
   end
 
   it "returns park name" do
@@ -22,6 +19,6 @@ describe "post park route", type: :request do
   end
 
   it "returns created status" do
-    expect(response).to have_http_status 202
+    expect(response).to have_http_status 201
   end
 end

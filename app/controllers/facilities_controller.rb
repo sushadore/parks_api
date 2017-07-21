@@ -13,7 +13,7 @@ class FacilitiesController < ApplicationController
   def create
     @park = Park.find(params[:park_id])
     @facility = @park.facilities.create!(facility_params)
-    json_response(@facility.park)
+    json_response(@facility.park, :created)
   end
 
   def update
