@@ -1,10 +1,17 @@
-Movie.destroy_all
-Quote.destroy_all
+Park.destroy_all
+Facility.destroy_all
 
-25.times do |index|
-  movie = Movie.create!(title: Faker::Book.title, genre: Faker::HowIMetYourMother.high_five)
+35.times do |index|
+  park = Park.create!(
+  name: Faker::Pokemon.unique.name,
+  category: Faker::Name.first_name,
+  location: Faker::Address.unique.street_address + ", " + Faker::Address.city + ", " + Faker::Address.state_abbr)
+
   n = Faker::Number.between(1, 5)
+
     n.times do |index|
-      movie.quotes.create!(character: Faker::Hipster.sentence(2, false, 0), content: Faker::TheFreshPrinceOfBelAir.quote)
+      park.facilities.create!(
+      amenity: Faker::Name.last_name,
+      description: Faker::TheFreshPrinceOfBelAir.quote)
     end
 end

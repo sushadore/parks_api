@@ -30,4 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  faker:
+    name:
+      first_name: [State Park, National Park, National Monument]
+      last_name: [Tent Camping, RV Camping, Hiking, Point of Interest, Picnic Area, Pet Area, Wildlife, Boating, Swimming, Fishing, Horse Trails, Biking, Snow Mobiles, Skiing, Playground]
