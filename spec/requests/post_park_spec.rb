@@ -1,9 +1,12 @@
 require 'rails_helper'
 
-describe "post park route", :type => :request do
+describe "post park route", type: :request do
 
   before do
-    post "/parks", params: { name: "Jellystone", category: "National Park", location: "POTUS's backyard" }
+    post "/parks", params: {
+      name: "Jellystone",
+      category: "National Park",
+      location: "POTUS's backyard" }
   end
 
   it "returns park name" do

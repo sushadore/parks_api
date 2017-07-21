@@ -4,12 +4,10 @@ describe "patch park route", type: :request do
 
   before do
     park = FactoryGirl.create(:park)
-    patch "/parks/#{park.id}", params: {
-      name: "Bellystone"
-    }
+    patch "/parks/#{park.id}", params: { name: "Bellystone" }
   end
 
-  it "returns updated name" do
+  it "returns updated park" do
     expect(Park.first.name).to eq "Bellystone"
   end
 
@@ -18,8 +16,6 @@ describe "patch park route", type: :request do
   end
 
   it "returns ok status" do
-         expect(response.status).to eq 200
-     end
-
-
+    expect(response.status).to eq 200
+  end
 end
