@@ -3,7 +3,7 @@ require 'rails_helper'
 describe "post quote route", type: :request do
 
   before do
-    park = Park.create(name: "Jellystone", category: "National Park", location: "POTUS's backyard", id: 1)
+    park = Park.create(name: "Jellystone", category: "National Farce", location: "POTUS's backyard", id: 1)
     post "/parks/#{park.id}/facilities", params: { amenity: "Trees", description: "Palmtrees of Joy", park_id: 1 }
   end
 
