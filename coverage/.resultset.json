@@ -328,9 +328,9 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        3,
+        3,
+        3,
         null,
         null,
         null,
@@ -352,7 +352,7 @@
         null,
         null,
         1,
-        4,
+        7,
         null,
         null
       ],
@@ -443,6 +443,33 @@
         null,
         null
       ],
+      "/Users/sushadore/Desktop/parks_api/spec/requests/patch_park_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        3,
+        3,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/sushadore/Desktop/parks_api/spec/requests/post_park_spec.rb": [
         1,
         null,
@@ -470,6 +497,6 @@
         null
       ]
     },
-    "timestamp": 1500670916
+    "timestamp": 1500671423
   }
 }
