@@ -1,5 +1,8 @@
 require 'rails_helper'
 
-RSpec.describe Park, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe Park do
+  it { should have_many :facilities }
+  it { should validate_presence_of :name }
+  it { should validate_presence_of :category }
+  it { should validate_presence_of :location }
 end
