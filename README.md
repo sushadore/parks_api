@@ -1,24 +1,8 @@
-# README
+# Parks API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Endpoints
+All endpoints are preceeded by `http://localhost:3000/`
+  1. `parks` returns all parks
+  2. `parks/1` returns an individual park. In this case it is the park with and id of 1.
+  3. `parks/5/facilities` returns all facilities associated with a specific park. In this case the park with an id of 5.
+  4. `parks/23/facilities/76` returns an individual facility by id. In this case the facility with and id of 76 associated with the park with the id 1. The facility ids must coordinate with the park they're associated with.
